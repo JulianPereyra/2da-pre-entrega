@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
+    <title>Solicitudes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,8 +22,16 @@
         </nav>
     </header>
     <main>
-        <h1>Bienvenido a la Red Social de Músicos</h1>
-        <div class="imagen-fondo"></div>
+        <h1>Solicitudes</h1>
+        <p>Envía tus solicitudes para unirte a una banda o para encontrar músicos.</p>
+        <form class="formulario">
+            <h2>Enviar Solicitud</h2>
+            <label for="nombre-solicitud">Tu Nombre:</label>
+            <input type="text" id="nombre-solicitud" name="nombre-solicitud">
+            <label for="mensaje-solicitud">Mensaje:</label>
+            <textarea id="mensaje-solicitud" name="mensaje-solicitud"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer>
         <p>&copy; 2024 Julian Pereyra</p>

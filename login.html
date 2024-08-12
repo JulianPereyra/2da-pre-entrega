@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio</title>
+    <title>Login</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,8 +22,15 @@
         </nav>
     </header>
     <main>
-        <h1>Bienvenido a la Red Social de Músicos</h1>
-        <div class="imagen-fondo"></div>
+        <h1>Login</h1>
+        <p>Inicia Sesión o regístrate para obtener más información.</p>
+        <form class="formulario">
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena">
+            <button type="submit">Ingresar</button>
+        </form>
     </main>
     <footer>
         <p>&copy; 2024 Julian Pereyra</p>
