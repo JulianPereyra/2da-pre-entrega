@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000; /* Fondo negro para toda la página */
+    color: white; /* Color de texto blanco para asegurar legibilidad */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye espacio entre el logo y el menú */
+}
+
+.logo {
+    margin-left: 1em;
+}
+
+.logo img {
+    height: 50px; /* Ajusta el tamaño del logotipo según tus necesidades */
+}
+
+.lista-menu {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-menu li {
+    margin: 0;
+}
+
+.lista-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    text-align: center;
+}
+
+.imagen-fondo {
+    background-image: url('multimedia/Neon2.jpg');
+    background-size: auto;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.formulario {
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    background-color: #444; /* Fondo gris oscuro para los formularios */
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    background-color: #222; /* Fondo negro para los campos de texto */
+    color: white; /* Texto blanco para los campos de texto */
+    border: 1px solid #555; /* Bordes grises para los campos de texto */
+}
+
+.formulario button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
