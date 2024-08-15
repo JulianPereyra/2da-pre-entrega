@@ -4,38 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="lista-menu">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="bandas.html">Bandas</a></li>
-                <li><a href="musicos.html">Músicos</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="solicitudes.html">Solicitudes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <header class="header">
         <h1>Bandas</h1>
-        <p>Encuentra aquí las bandas registradas.</p>
-        <form class="formulario-registro">
-            <h2>Registrar Banda</h2>
-            <label for="nombre-banda">Nombre de la Banda:</label>
-            <input type="text" id="nombre-banda" name="nombre-banda">
-            <label for="genero-banda">Género:</label>
-            <input type="text" id="genero-banda" name="genero-banda">
-            <label for="imagen-banda">Imagen:</label>
-            <input type="text" id="imagen-banda" name="imagen-banda" placeholder="URL de la imagen">
-            <button type="submit">Registrar</button>
-        </form>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="musicos.html">Músicos</a></li>
+            <li><a href="bandas.html">Bandas</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="solicitudes.html">Solicitudes</a></li>
+        </ul>
+    </nav>
+    <main class="container-custom">
+        <h2 class="section-title">Lista de Bandas</h2>
+        <ul class="list-custom">
+            <!-- Ejemplo de una banda -->
+            <li>Banda 1</li>
+            <li>Banda 2</li>
+            <!-- Más bandas -->
+        </ul>
     </main>
-    <footer>
-        <p>&copy; 2024 Julian Pereyra</p>
+    <footer class="footer">
+        &copy; Juian Pereyra 2024
     </footer>
 </body>
-</html>
-
 </html>
