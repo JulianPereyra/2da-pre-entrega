@@ -1,33 +1,33 @@
-/* Importación de la fuente */
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f8f9fa;
 }
 
-/* Estilo para el encabezado */
+
 header {
-    background-color: #007bff; /* Color de fondo azul */
+    background-color: #007bff; 
     color: #ffffff;
-    padding: 3rem 1rem; /* Espaciado mejorado */
-    border-bottom: 4px solid #ffffff; /* Borde inferior blanco */
+    padding: 3rem 1rem; 
+    border-bottom: 4px solid #ffffff; 
 }
 
-/* Estilo para el carrusel */
+
 .carousel-inner img {
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
-    height: 350px; /* Ajusta la altura del carrusel */
+    object-fit: cover; 
+    height: 350px;
 }
 
-/* Estilo para las leyendas del carrusel */
+
 .carousel-caption {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 1rem;
 }
 
-/* Estilo para la barra de navegación */
+
 .navbar {
-    background-color: #343a40; /* Color de fondo oscuro para la navbar */
+    background-color: #343a40; 
 }
 .navbar-brand, .nav-link {
     color: #ffffff !important;
@@ -36,7 +36,6 @@ header {
     color: #dcdcdc !important;
 }
 
-/* Estilo para el pie de página */
 footer {
     background-color: #343a40;
     color: #ffffff;
