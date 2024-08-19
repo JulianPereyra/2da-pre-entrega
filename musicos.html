@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Músicos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    <header class="bg-primary text-white p-5 text-center">
-        <h1 class="display-3">Músicos</h1>
-        <p class="lead">Descubre a los músicos y sus obras en nuestra plataforma.</p>
-    </header>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="multimedia/logo1.png" alt="MUSICONECT Logo" style="height: 40px; background-color: transparent;">
+                MUSICONECT
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
@@ -38,15 +42,21 @@
             </div>
         </div>
     </nav>
+
+    <header class="bg-primary text-white p-5 text-center">
+        <h1 class="display-3">Músicos</h1>
+        <p class="lead">Descubre a los músicos y sus obras en nuestra plataforma.</p>
+    </header>
+
     <div class="container my-5">
-        <h2 class="text-center display-4 mb-4">Nuestros Músicos</h2>
+        <h2 class="text-center display-4 mb-4">Artistas agregados recientemente:</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card border-0 shadow">
                     <img src="multimedia/imagen1.jpg" class="card-img-top" alt="Músico 1">
                     <div class="card-body">
                         <h5 class="card-title">Músico 1</h5>
-                        <p class="card-text">Descripción breve del músico 1.</p>
+                        <p class="card-text">Descripción breve del músico 1</p>
                         <a href="#" class="btn btn-primary">Ver más</a>
                         <a href="#" class="btn btn-secondary">Contactar</a>
                     </div>
@@ -57,7 +67,7 @@
                     <img src="multimedia/imagen2.jpg" class="card-img-top" alt="Músico 2">
                     <div class="card-body">
                         <h5 class="card-title">Músico 2</h5>
-                        <p class="card-text">Descripción breve del músico 2.</p>
+                        <p class="card-text">Descripción breve del músico 2</p>
                         <a href="#" class="btn btn-primary">Ver más</a>
                         <a href="#" class="btn btn-secondary">Contactar</a>
                     </div>
@@ -68,7 +78,41 @@
                     <img src="multimedia/imagen3.jpg" class="card-img-top" alt="Músico 3">
                     <div class="card-body">
                         <h5 class="card-title">Músico 3</h5>
-                        <p class="card-text">Descripción breve del músico 3.</p>
+                        <p class="card-text">Descripción breve del músico 3</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <a href="#" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="multimedia/imagen4.jpeg" class="card-img-top" alt="Músico 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Músico 4</h5>
+                        <p class="card-text">Descripción breve del músico 4</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <a href="#" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="multimedia/imagen5.jpg" class="card-img-top" alt="Músico 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Músico 5</h5>
+                        <p class="card-text">Descripción breve del músico 5.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <a href="#" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="multimedia/imagen6.jpg" class="card-img-top" alt="Músico 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Músico 6</h5>
+                        <p class="card-text">Descripción breve del músico 6.</p>
                         <a href="#" class="btn btn-primary">Ver más</a>
                         <a href="#" class="btn btn-secondary">Contactar</a>
                     </div>
@@ -76,10 +120,12 @@
             </div>
         </div>
     </div>
-    
+
     <footer class="bg-dark text-white text-center p-3">
-        &copy; 2024 Página de Artistas. Todos los derechos reservados.
+        &copy; 2024 Julian Pereyra
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
