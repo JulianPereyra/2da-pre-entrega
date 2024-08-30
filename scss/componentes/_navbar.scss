@@ -1,0 +1,10 @@
+@import '../utilidades/mixins';
+
+.navbar {
+  @include bg-dark;
+  .navbar-brand {
+      .navbar-logo {
+          height: 40px;
+      }
+  }
+}

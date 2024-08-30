@@ -1,0 +1,16 @@
+@import 'bases/reset';
+@import 'bases/variables';
+@import 'bases/tipografia';
+
+@import 'componentes/navbar';
+@import 'componentes/botones';
+@import 'componentes/formularios';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/main';
+@import 'layout/carrusel';
+
+@import 'utilidades/mixins';
+@import 'utilidades/animaciones';

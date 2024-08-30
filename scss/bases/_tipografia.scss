@@ -1,0 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: $font-size-base;
+  color: $text-color;
+  background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: $font-size-xl;
+}
+
+h2 {
+  font-size: $font-size-lg;
+}
