@@ -122,7 +122,15 @@ footer {
   }
 }
 .fade-in {
-  animation: fadeIn 1s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.gradiente-texto {
+  background: linear-gradient(45deg, #ff6b6b, #f9ca24, #48dbfb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
